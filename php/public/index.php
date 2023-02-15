@@ -18,7 +18,7 @@
     <header>    
         <!--NAVBAR-->
         <nav class="navbar container-fluid" id="barra-nav">
-          <a class="col-sm-12 col-md-1" href="http://localhost/dashboard/daw2022/tp/tp-parte-2/public/">
+          <a class="col-sm-12 col-md-1" href="http://localhost/dashboard/projects/utn-costumers-crud/laravel/public/">
             <img src="utn-logo.png" width="253" height="40" class="d-inline-block" alt="">      
           </a>
           <h3></h3>
@@ -27,10 +27,10 @@
         <nav class=" nav mt-3 hstack gap-2">
         <ul class="nav nav-pills pr-2 mr-2 hstack gap-3">
         <li class="nav-item">
-          <a class="btn btn-primary" type="button" href="http://localhost/dashboard/daw2022/tp/tp-parte-2/public/clientes/create">Crear Cliente</a>
+          <a class="btn btn-primary" type="button" href="http://localhost/dashboard/projects/utn-costumers-crud/laravel/public/clientes/create">Crear Cliente</a>
         </li>
         <li class="nav-item">
-          <a class="btn btn-primary" type="button" href="http://localhost/dashboard/daw2022/tp/tp-parte-2/public/">Lista de clientes</a>
+          <a class="btn btn-primary" type="button" href="http://localhost/dashboard/projects/utn-costumers-crud/laravel/public/">Lista de clientes</a>
         </li>        
       </ul>  
       </nav>
@@ -38,7 +38,7 @@
         
         <!--TITULO-->
         <div class="container-fluid mt-4 pt-2 mb-3 pb-3 text-center">
-           <h2>Actividad Practica 2 Parte 1: PHP Nativo</h2>
+           <h2>Carga de BDD con archivo CSV en PHP Nativo</h2>
            <hr>           
         </div>    
     </header>    

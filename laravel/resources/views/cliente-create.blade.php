@@ -24,7 +24,7 @@
     <label for="cuit">CUIT</label>
     <input type="text" class="form-control" name="cuit" id="cuit" value="{{ old('cuit') }}" aria-describedby="cuit">    
   </div>
-  {{ provinciaPreset('null'); }}
+  {{ provinciaPreset('null') }}
   <hr>
   <h5 class="text-center"><u>Datos de Contacto</u></h5>
   <div class="form-group">
