@@ -54,7 +54,7 @@
                         <!--name = variable con validez para el action id => referencia al DOM del html-->
                         <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST" enctype="multipart/form-data">
                         <div class="container">
-                            <input type="file" name="studentsList" id="studentsList">   
+                            <input type="file" name="listaClientes" id="listaClientes">   
                         </div>
                         <div class="mt-5">
                             <input type="submit" name="submit">
