@@ -1,5 +1,4 @@
 @extends('layouts.app')
-
 @section('titulo', 'Actualizar Cliente')
 
 @section('titulo-seccion')
@@ -29,7 +28,7 @@
     <label class="pb-2" for="cuit">CUIT</label>
     <input type="text" class="form-control" name="cuit" id="cuit" value="{{ old('cuit', $cliente -> cuit) }}" aria-describedby="cuit" minlength="11" maxlength="11">    
   </div>
-  {{ provinciaPreset($cliente->provincia) }}
+    {{ \provinciaPreset($cliente->provincia) }}
   <div class="form-group pt-2 pb-2">
     <hr>
     <h5 class="text-center"><u>Datos de Contacto</u></h5>

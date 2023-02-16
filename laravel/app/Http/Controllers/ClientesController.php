@@ -5,7 +5,6 @@ use App\Http\Requests\StoreClienteRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use App\Models\Cliente;
-use App\Libs\helpers;
 use Illuminate\Support\Facades\Validator;
 use Illuminate\Validation\Rule;
 
@@ -22,6 +21,7 @@ class ClientesController extends Controller
 
     //Crear cliente
     public function create(){
+        
         return view('cliente-create');
     }
 
