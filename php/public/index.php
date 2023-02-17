@@ -9,7 +9,7 @@
     <!-- Bootstrap y CSS personalizado -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="estiloTP.css">    
+    <link rel="stylesheet" href="http://localhost/dashboard/projects/utn-costumers-crud/shared_files/css/estilo.css">    
 
     <title>Carga de Clientes</title>
   </head>
@@ -19,13 +19,13 @@
         <!--NAVBAR-->
         <nav class="navbar container-fluid" id="barra-nav">
           <a class="col-sm-12 col-md-1" href="http://localhost/dashboard/projects/utn-costumers-crud/laravel/public/">
-            <img src="utn-logo.png" width="253" height="40" class="d-inline-block" alt="">      
+            <img src="http://localhost/dashboard/projects/utn-costumers-crud/shared_files/imgs/utn-logo.png" width="253" height="40" class="d-inline-block" alt="">      
           </a>
           <h3></h3>
         </nav>  
         <!--FIN NAVBAR-->
-        <nav class=" nav mt-3 hstack gap-2">
-        <ul class="nav nav-pills pr-2 mr-2 hstack gap-3">
+        <nav class="container-fluid nav mt-3 hstack gap-2">
+        <ul class="nav nav-pills pl-5 ml-5 hstack gap-3">
         <li class="nav-item">
           <a class="btn btn-primary" type="button" href="http://localhost/dashboard/projects/utn-costumers-crud/laravel/public/clientes/create">Crear Cliente</a>
         </li>

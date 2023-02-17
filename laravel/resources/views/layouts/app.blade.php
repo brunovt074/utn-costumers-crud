@@ -10,7 +10,7 @@
 
     <!-- Bootstrap y CSS personalizado -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{asset('css/estilo.css')}}">   
+    <link rel="stylesheet" href="{{asset('http://localhost/dashboard/projects/utn-costumers-crud/shared_files/css/estilo.css')}}">   
 
     <title>@yield('titulo')</title>
   </head>
@@ -22,18 +22,18 @@
         <nav class="navbar container-fluid" id="barra-nav">
         <div class="col-sm-12 col-md-1">
           <a class="navbar-brand" href="{{ route('home') }}">
-          <img src="//localhost/dashboard/daw2022/tp/tp-parte-2/public/imgs/utn-logo.png" width="253" height="40" class="d-inline-block align-top" alt="img-utn">        
+          <img src="http://localhost/dashboard/projects/utn-costumers-crud/shared_files/imgs/utn-logo.png" width="253" height="40" class="d-inline-block align-top" alt="img-utn">        
         </a>
         </div>       
       </nav>
 
       <nav class="nav container-fluid mt-3 ml-0 pl-0 hstack gap-2">
-        <ul class="container-fluid nav nav-pills pr-2 mr-2 hstack gap-3">
+        <ul class="container nav nav-pills pr-2 mr-2 hstack gap-3">
         <li class="nav-item">
           <a class="btn btn-primary" type="button" href="{{ route('clientes.create') }}">Crear Cliente</a>
         </li>
         <li class=" nav-item">
-          <a class="btn btn-primary" type="button" href="http://localhost/dashboard/daw2022/tp/tp-parte-1/public/index.php">Cargar archivo csv de clientes</a>
+          <a class="btn btn-primary" type="button" href="http://localhost/dashboard/projects/utn-costumers-crud/php/public/index.php">Cargar archivo csv de clientes</a>
         </li>        
       </ul>  
       </nav>
