@@ -9,7 +9,7 @@
 @endsection
 
 @section('contenido')
-<form class="container col-lg-5 card pb-4 pt-3"action="{{ route('clientes.store') }}" method="POST">
+<form class="container col-md-8 card pb-4 pt-3"action="{{ route('clientes.store') }}" method="POST">
   @csrf 
   <div class="form-group">
     <h5 class="text-center"><u>Datos Personales</u></h5>

@@ -79,8 +79,7 @@
         <div class="container mb-0">
             <p class="pt-3">
                Página realizada por Bruno Vargas Tettamanti<br>
-               E-mail: brunovt.074@gmail.com<br>
-               Paso de los Libres -Corrientes, Argentina-<br>
+               E-mail: brunovt.074@gmail.com<br>               
             </p>                
         </div>
     </footer>

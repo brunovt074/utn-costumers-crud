@@ -55,7 +55,7 @@
             <p class="pt-3 mb-0 pb-0">
                Página realizada por Bruno Vargas Tettamanti<br>
                E-mail: brunovt.074@gmail.com<br>
-               Paso de los Libres -Corrientes, Argentina-<br>
+               
                <a class="text-white" href="https://www.linkedin.com/in/bruno-vargas-tettamanti-developer/">Linkedin</a>
             </p>                
         </div>

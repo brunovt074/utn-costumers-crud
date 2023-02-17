@@ -9,7 +9,7 @@
 @endsection
 
 @section('contenido')
-<form class="container card shadow-sm col-lg-5  pb-4 pl-5 pr-5  ml-5 mr-5"action="{{ route('clientes.update', $cliente) }}" method="POST">
+<form class="container card shadow-sm col-md-8 pb-4 pl-5 pr-5  ml-5 mr-5"action="{{ route('clientes.update', $cliente) }}" method="POST">
   @csrf @method('PATCH')
   <div class="form-group row">      
       <label class="col-sm-6 col-form-label pb-2" for="id" >Número de Cliente: {{ old('nro_cliente',$cliente -> nro_cliente) }}</label>    
